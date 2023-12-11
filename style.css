@@ -13,10 +13,12 @@ body{
     background-image: url(./images/panel\ 1.jpg);
 }
 
-/* main {
+main {
     margin-inline: auto;
+    padding-inline: auto;
     width: fit-content;
-} */
+    height: fit-content;
+}
 
 h1 {
   color: #fff;
@@ -77,23 +79,22 @@ h3 {
   text-transform: capitalize;
 }
 .box1 {
-  width: 350px;
-  height: 300px;
+  width: 40%;
+  height: 250px;
   flex-shrink: 0;
   border-radius: 30px;
   background: #0a9642;
   text-align: center;
-  
-  /* margin: 10px; */
+ margin: 10px;
 }
 .box2 {
-  width: 45%;
-  height: 300px;
+  width: 40%;
+  height: 250px;
   flex-shrink: 0;
   border-radius: 30px;
   background: #1e56a1;
   text-align: center;
-  /* margin: 10px; */
+  margin: 10px;
 }
 .light {
   width: 100px;
@@ -114,22 +115,22 @@ h3 {
   margin-top: 5px;
 }
 .gray {
-  width: 500px;
-  height: 300px;
+  width: 530px;
+  height: 230px;
   flex-shrink: 0;
   border-radius: 30px;
   background: rgba(0, 0, 0, 0.5);
 }
 .small {
-  width: 250px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   flex-shrink: 0;
   border-radius: 30px;
   background: rgba(0, 0, 0, 0.5);
 }
 .big {
   width: 50%;
-  height: 600px;
+  height: 480px;
   flex-shrink: 0;
   border-radius: 30px;
   background: rgba(23, 25, 90, 0.5);
