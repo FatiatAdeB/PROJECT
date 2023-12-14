@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Sora:wght@400;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +14,8 @@
 body{
   margin: 30px;  
   justify-content: center;
-    /* background-image: url(./images/panel\ 1.jpg); */
-
+  font-family: 'Poppins', sans-serif;
+font-family: 'Sora', sans-serif;
 }
 section{
   margin: 20px;
@@ -23,6 +26,11 @@ main {
     padding-inline: auto;
     width: fit-content;
     height: fit-content;
+}
+.bluetext{
+  position: absolute;
+  margin-top: -300px;
+  padding-left: 100px;
 }
 
 .bluetext h1 {
@@ -51,17 +59,14 @@ main {
   border: none;
 }
 .blue {
-  /* transform: rotate(-36.651deg); */
   flex-shrink: 0;
   border-radius: 336.786px;
   background: rgba(30, 86, 161, 0.8);
-
   width: 650px;
   height: 400px;
   transform: rotate(-36.65deg);
-  /* transform-origin: 0 0;  */
-  background: rgba(30, 86, 161, 0.8);
-  border-radius: 336.79px;
+ margin-left: -25px;
+ margin-top: -30px;
 }
 
 .s-systems {
@@ -130,11 +135,14 @@ main {
   margin-top: 5px;
 }
 .gray {
-  width: 530px;
+  width: 470px;
   height: 230px;
   flex-shrink: 0;
   border-radius: 30px;
   background: rgba(0, 0, 0, 0.5);
+  background-image: url(./images/gray.jpg);
+  background-size: cover;
+
 }
 .small {
   width: 230px;
@@ -142,13 +150,23 @@ main {
   flex-shrink: 0;
   border-radius: 30px;
   background: rgba(0, 0, 0, 0.5);
+  background-image: url(./images/small.jpg);
+  background-size: cover;
+  margin: 5px;
+}
+#smalls{
+  background-image: url(./images/wind\ vane\ 1\ \(1\).jpg);
+  background-size: cover;
 }
 .big {
   width: 50%;
-  height: 480px;
+  height: 460px;
   flex-shrink: 0;
   border-radius: 30px;
   background: rgba(23, 25, 90, 0.5);
+  background-image: url(./images/big.jpg);
+  background-size: cover;
+  /* margin: 5px; */
 }
 .s-contain {
   display: flex;
@@ -159,6 +177,7 @@ main {
 .smallgray {
   display: flex;
   flex-direction: column;
+  /* margin: 10px; */
 }
 .circle{
 background-color: #0a9642;
@@ -199,6 +218,14 @@ position: relative;
   font-weight: 400;
   line-height: 28px; /* 175% */
 }
+.welcome{
+  width: 450px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  text-align: center;
+  margin: 10px;
+}
 .welcome p{
     color: var(--Title-Color, #000);
 font-family: Sora;
@@ -223,10 +250,12 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 177.778% */
-width: 500px;
-height: 350px;
 flex-shrink: 0;
-background-color: var(--bg-color);
+width: 450px;
+height: 300px;
+border-radius: 30px;
+text-align: center;
+margin: 10px;
 }
 .signature h4{
 color: #000;
@@ -238,12 +267,12 @@ line-height: normal;
 }
 .sign{
     display: flex;
-    margin:auto;
+    /* margin:auto; */
 }
-.gray{
-    width: 450px;
-  height: 250px;
+.flex-sign {
+  display: flex;
 }
+
 .flexfirst{
   display: flex;
 }
@@ -255,6 +284,12 @@ line-height: normal;
   background: gray;
   text-align: center;
  margin: 10px;
+ background-image: url(./images/project1.jpg);
+ background-size: cover;
+}
+#proj {
+  background-image: url(./images/installations.jpg);
+  background-size: cover;
 }
 .group3{
   display: flex;
@@ -262,44 +297,47 @@ line-height: normal;
 }
 .consult{
   width: 250px;
-  height: 300px;
+  height: 270px;
   flex-shrink: 0;
   border-radius: 30px;
-  background: gray;
+  background: beige;
   text-align: center;
+  border: #666 solid 3px;
  margin: 10px;
- 
 }
-.consult2{
-  width: 250px;
-  height: 300px;
-  flex-shrink: 0;
-  border-radius: 30px;
-  background: gray;
-  text-align: center;
- margin: 10px;
+#consult2{
  position: relative;
+ margin-top: 40px;
 }
-.testimonials{
+.consult img {
+width: 60px;
+height: 60px;
+flex-shrink: 0;
+margin-left: 3px;
+margin-top: 26px;
+float: left;
+}
+.move{
+  margin-top: 15px;
+}
+.numbox{
+  background-color: #0a9642;
+  border-radius: 50px;
+  padding-inline: 25px;
+  padding-block: 40px;
+  float: right;
+  padding-top: auto;
+}
+.numflex{
   display: flex;
 }
-.circus{
-  background-color: blue;
-  border-radius: 50%;
-  height: 500px;
-  width: 500px;
+hr{
+  width: 200px;
 }
-.text1 p {
-  width: 450px;
-height: fit-content;
-flex-shrink: 0;
-  color: #666;
-font-family: Sora;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-line-height: 56px; /* 186.667% */
+.partners h3{
+  text-align: center;
 }
+
 footer {
   background-color: #1e56a1;
   display: flex;
