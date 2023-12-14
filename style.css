@@ -9,8 +9,13 @@
 }
 
 body{
-    justify-content: center;
-    background-image: url(./images/panel\ 1.jpg);
+  margin: 30px;  
+  justify-content: center;
+    /* background-image: url(./images/panel\ 1.jpg); */
+
+}
+section{
+  margin: 20px;
 }
 
 main {
@@ -20,7 +25,7 @@ main {
     height: fit-content;
 }
 
-h1 {
+.bluetext h1 {
   color: #fff;
   font-family: Sora;
   font-size: 70px;
@@ -68,7 +73,7 @@ h1 {
 }
 /* lightgray 50% / cover no-repeat */
 
-h3 {
+.box1 h3 {
   color: #fff;
   text-align: center;
   font-family: Sora;
@@ -79,8 +84,8 @@ h3 {
   text-transform: capitalize;
 }
 .box1 {
-  width: 40%;
-  height: 250px;
+  width: 450px;
+  height: 300px;
   flex-shrink: 0;
   border-radius: 30px;
   background: #0a9642;
@@ -88,13 +93,23 @@ h3 {
  margin: 10px;
 }
 .box2 {
-  width: 40%;
-  height: 250px;
+  width: 450px;
+  height: 300px;
   flex-shrink: 0;
   border-radius: 30px;
   background: #1e56a1;
   text-align: center;
   margin: 10px;
+}
+.box2 h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Sora;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 266.667% */
+  text-transform: capitalize;
 }
 .light {
   width: 100px;
@@ -158,7 +173,6 @@ position: relative;
     margin: 9px;
 }
 .members {
-  background: var(--bg-color);
   width: 25%;
   height: 200px;
   text-align: center;
@@ -230,7 +244,66 @@ line-height: normal;
     width: 450px;
   height: 250px;
 }
-
+.flexfirst{
+  display: flex;
+}
+.first {
+  width: 450px;
+  height: 280px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: gray;
+  text-align: center;
+ margin: 10px;
+}
+.group3{
+  display: flex;
+  margin-bottom: 30px;
+}
+.consult{
+  width: 250px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: gray;
+  text-align: center;
+ margin: 10px;
+ 
+}
+.consult2{
+  width: 250px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: gray;
+  text-align: center;
+ margin: 10px;
+ position: relative;
+}
+.testimonials{
+  display: flex;
+}
+.circus{
+  background-color: blue;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+}
+.text1 p {
+  width: 450px;
+height: fit-content;
+flex-shrink: 0;
+  color: #666;
+font-family: Sora;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px; /* 186.667% */
+}
+footer {
+  background-color: #1e56a1;
+  display: flex;
+}
 @media (max-width: 425px) {
   .s-systems {
     width: auto;
